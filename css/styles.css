@@ -572,7 +572,7 @@ body {
 }
 
 .modal {
-  position: relative;
+  position: absolute;
   background-color: var(--dairy-modal-background);
   width: 408px;
   height: 576px;
