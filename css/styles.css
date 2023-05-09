@@ -559,6 +559,12 @@ body {
 /* ======================== */
 /* ----- Modal window ----- */
 /* ======================== */
+.backdrop.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -586,6 +592,10 @@ body {
   top: 24px;
   right: 24px;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 24px;
   height: 24px;
   background-color: var(--cornflower-accent);
@@ -595,6 +605,7 @@ body {
 
 .modal-close-dtn:hover,
 .modal-close-dtn:focus {
+  fill: var(--white-background);
   background-color: var(--ocean-pressed-state);
   border: 0;
 }
