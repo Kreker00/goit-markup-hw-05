@@ -588,9 +588,11 @@ body {
 
 .portfolio-overlay-text {
   position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
 
+  color: var(--cloud-light);
   width: 100%;
   height: 100%;
   padding: 40px 32px;
