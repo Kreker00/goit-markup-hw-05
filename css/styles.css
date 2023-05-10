@@ -586,7 +586,8 @@ body {
   overflow: hidden;
 }
 
-.portfolio-overlay {
+.portfolio-overlay-text {
+  color: var(--cloud-light);
   position: absolute;
   top: 0;
   left: 0;
@@ -600,13 +601,9 @@ body {
   transition: transform 250ms ease;
 }
 
-.projects-item-link:hover .portfolio-overlay,
-.projects-item-link:focus .portfolio-overlay {
+.projects-item-link:hover .portfolio-overlay-text,
+.projects-item-link:focus .portfolio-overlay-text {
   transform: translateY(0%);
-}
-
-.portfolio-overlay-text {
-  color: var(--cloud-light);
 }
 
 .box-projects-text {
